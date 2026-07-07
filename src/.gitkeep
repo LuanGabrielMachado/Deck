@@ -1,0 +1,13 @@
+# Maracutáia - Layout de pastas src/
+
+## Estrutura
+```
+src/
+├── app/              # Next.js App Router (rotas e páginas)
+├── components/       # Componentes React (será populado)
+├── hooks/           # Custom hooks (será populado)
+├── lib/             # Utilitários (será populado)
+└── types/           # TypeScript types (será populado)
+```
+
+Este arquivo garante que as pastas vazias sejam commitadas no git.

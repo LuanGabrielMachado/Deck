@@ -1,0 +1,140 @@
+```
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+bower_components/
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+public/build/
+*.min.js
+*.min.css
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+.directory
+apple_double/
+.FBCIndex
+.dropbox/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# Testing
+coverage/
+htmlcov/
+.coveralls.yml
+.pytest_cache/
+.hypothesis/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+temp/
+tmp/
+
+# IDE
+.vs/
+*.rs.bk
+*~
+
+# Package manager
+jspm_packages/
+node_modules/
+jspm_packages/
+web_modules/
+```
+
+Wait, let me reconsider this. Looking at the modified files, I see TypeScript/JavaScript files, React components, Next.js pages, and some other files, but no build artifacts or dependency directories were actually added in the changes. Let me check again...
+
+Actually, the changes show mostly source code files (.ts, .tsx), markdown files, and configuration files. No build artifacts or dependency directories were added in the change list itself. However, there are common patterns like package-lock.json which suggests this might be a Node.js project, so some standard ignores would be appropriate.
+
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+.venv/
+venv/
+```
