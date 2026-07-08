@@ -62,15 +62,6 @@ Exemplos de representação de nossa comunidade incluem:
 
 ## Aplicação
 
-### Como Reportar
-
-Incidentes de comportamento abusivo, assediador ou otherwise inaceitável podem ser reportados aos líderes da comunidade responsáveis pela aplicação:
-
-- **Email:** [inserir email de contato]
-- **Telegram:** [inserir contato do mantenedor]
-- **GitHub:** [inserir link para issue template de conduta]
-
-Todas as reclamações serão revisadas e investigadas prontamente e de forma justa.
 
 ### Confidencialidade
 
@@ -148,15 +139,6 @@ Deck é uma rede social **lenta**, **efêmera** e **intencional**. Contribuiçõ
 
 ---
 
-## Contato
-
-Para dúvidas sobre este Código de Conduta ou para reportar incidentes:
-
-- **Email:** [inserir email]
-- **Telegram:** [inserir contato]
-- **GitHub Issues:** [inserir link]
-
----
 
 **Versão:** 1.0.0  
 **Última Atualização:** Março 2026
